@@ -6,7 +6,7 @@ def add(x,y):
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 
-print add(num1,num2)	
+print " the sum of your numbers is " + add(num1,num2)	
 		
 	
 	
