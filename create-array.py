@@ -1,3 +1,11 @@
-array = [[1,2,3],[4,5,6]]
-array2 = [[3,5,6],[7,8,9]]
-print array, array2 
+def create_array(x1,x2,y1,y2):
+	array = [[x1,x2],[y1,y2]]
+	return array
+
+
+no1 = int(input("Enter first number: x1 = "))
+no2 = int(input("Enter first number: x1 = "))
+no3 = int(input("Enter first number: x1 = "))
+no4 = int(input("Enter first number: x1 = "))
+
+print create_array(no1,no2,no3,no4)
